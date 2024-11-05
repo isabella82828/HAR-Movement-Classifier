@@ -22,7 +22,7 @@ The Human Activity Recognition Using Smartphones dataset consists of acceleromet
 - Scikit-learn (for data preprocessing)
 - Matplotlib (for plotting results)
 
-# Future Improvements 
+## Future Improvements 
 1. Hybrid Architectures: Combine CNNs with LSTMs to capture spatial and temporal features to improve recognition accuracy.
 
 2. Attention Mechanisms: Integrate attention layers to enable the model to focus on relevant parts of the input sequence, enhancing distinction between similar activities.
