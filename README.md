@@ -1,4 +1,4 @@
-# HAR-Movement-Classifier
+# HAR Movement Classifier
 ## Overview 
 Human Activity Recognition (HAR) involves identifying a person’s physical activities through sensor data. In this project, we use the HAR dataset collected from smartphone accelerometer and gyroscope readings. The data is labeled with six types of activities, and our goal is to train an LSTM-based neural network to classify these movements accurately:
 
