@@ -22,12 +22,12 @@ The Human Activity Recognition Using Smartphones dataset consists of acceleromet
 - Scikit-learn (for data preprocessing)
 - Matplotlib (for plotting results)
 
+## Conclusions
+- __Model Performance:__ The model achieved an overall accuracy of 94%. The model effectively distinguished between six types of movements: walking, walking upstairs, walking downstairs, sitting, standing, and laying down.
+- __Strengths and Insights:__ The model performed very well in differentiating static activities, such as "sitting" and "standing," even though these actions share similar characteristics from the perspective of waist-level sensors. This highlights the robustness of LSTM architectures in extracting temporal dependencies from sensor data.
+
 ## Future Improvements 
-1. Hybrid Architectures: Combine CNNs with LSTMs to capture spatial and temporal features to improve recognition accuracy.
-
-2. Attention Mechanisms: Integrate attention layers to enable the model to focus on relevant parts of the input sequence, enhancing distinction between similar activities.
-
-3. Transfer Learning: Pre-train the model on related datasets before fine-tuning on HAR data to boost performance, especially with limited labeled data.
-
-4. Real-Time Processing: Optimize the model for real-time inference, enabling deployment in applications requiring immediate activity recognition.
+- __Hybrid Architectures:__ Combine CNNs with LSTMs to capture spatial and temporal features to improve recognition accuracy.
+- __Attention Mechanisms:__ Integrate attention layers to enable the model to focus on relevant parts of the input sequence, enhancing distinction between similar activities.
+- __Transfer Learning:__ Pre-train the model on related datasets before fine-tuning on HAR data to boost performance, especially with limited labeled data.
 
